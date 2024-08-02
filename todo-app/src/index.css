@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.2;
+  font-size: 18px;
+  background-color: #66deb2;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 75%;
+}
+
+
+
+
+.todo-item {
+  display: flex;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo-item--checked {
+  text-decoration: line-through;
+}
+
+.todo-item__description {
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.todo-item__delete {
+  background: #0be69d;
+  border: none;
+  cursor: pointer;
+  width: 95px;
+  padding: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.2;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 75%;
+  flex-grow: 1;
+  height: 586px;
+  padding-top: 25px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+.dern {
+  background: #fff;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  width: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  gap: 15px;
+}
+
+p {
+  text-align: center;
+}
+
+.form__input {
+  min-height: 25px;
+  padding: 15px;
+  width: 100%;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.form__btn {
+  background: #f00606;
+  border: none;
+  cursor: pointer;
+  width: 125px;
+  height: 52px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.error-message {
+  color: red;
+  font-size: 17px;
+  margin-top: -10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.todo-item {
+  display: flex;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: rgb(172, 171, 169);
+}
+
+.todo-item--checked {
+  text-decoration: line-through;
+}
+
+.todo-item__description {
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.todo-item__delete {
+  background: #14b706;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 16px;
+}
